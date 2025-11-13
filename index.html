@@ -1,36 +1,389 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link rel="shortcut icon" href="https://riwi.io/wp-content/uploads/2023/07/favicon-300x300.png" type="image/x-icon">  
+  <title>Clan Turing</title>
+  <style>
+    * {
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #f5f5f7;
+      color: #222;
+    }
+
+    .container {
+      max-width: 1080px;
+      margin: 0 auto;
+      padding: 2rem 1rem 3rem;
+    }
+
+    header {
+      text-align: center;
+      margin-bottom: 2rem;
+    }
+
+    header img {
+      max-width: 160px;
+      border-radius: 1rem;
+      display: block;
+      margin: 0 auto 1rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+    }
+
+    h1 {
+      font-size: 2rem;
+      margin: 0.2rem 0;
+    }
+
+    h2 {
+      font-size: 1rem;
+      font-weight: 400;
+      margin: 0.2rem 0;
+      color: #555;
+    }
+
+    p.subtitle {
+      font-size: 0.9rem;
+      color: #666;
+      margin-top: 0.6rem;
+    }
+
+    .table-wrapper {
+      background: #ffffff;
+      border-radius: 1rem;
+      padding: 1rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, 0.05);
+      overflow-x: auto;
+    }
+
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      min-width: 600px;
+    }
+
+    thead {
+      background: #111827;
+      color: #f9fafb;
+    }
+
+    th, td {
+      padding: 0.7rem 0.8rem;
+      text-align: left;
+      font-size: 0.9rem;
+    }
+
+    th {
+      font-weight: 600;
+    }
+
+    tbody tr:nth-child(even) {
+      background: #f9fafb;
+    }
+
+    tbody tr:hover {
+      background: #e5f0ff;
+    }
+
+    a {
+      color: #1d4ed8;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    .btn-link {
+      display: inline-block;
+      padding: 0.25rem 0.6rem;
+      border-radius: 999px;
+      border: 1px solid #d1d5db;
+      font-size: 0.8rem;
+      text-decoration: none;
+      margin-right: 0.2rem;
+      background: #f9fafb;
+    }
+
+    .btn-link:hover {
+      background: #e5e7eb;
+      text-decoration: none;
+    }
+
+    @media (max-width: 640px) {
+      header img {
+        max-width: 120px;
+      }
+
+      h1 {
+        font-size: 1.6rem;
+      }
+
+      table {
+        min-width: 100%;
+        font-size: 0.85rem;
+      }
+    }
+  </style>
 </head>
 <body>
-    <h1>Antony Martinez Ruiz</h1>
-    <h2>Me encanta los juegos!</h2>
+  <div class="container">
+    <header>
+      <img
+        src="https://images.pexels.com/photos/3861958/pexels-photo-3861958.jpeg"
+        alt="Clan Turing - Desarrollo y creatividad"
+      />
+      <h1>Clan Turing</h1>
+      <h2>Portafolios de desarrollo</h2>
+      <p class="subtitle">
+        Haz clic en los enlaces para ver el <strong>portafolio</strong> o el <strong>perfil de GitHub</strong> de cada coder.
+      </p>
+    </header>
 
-    <table>
-  <tr>
-    <th>Actividad</th>
-    <th>Enlace</th>
-    <th>Modulo</th>
-  </tr>
-  <tr>
-    <td>Crudactivity</td>
-    <td><a href="https://github.com/crudzaso/join">enlace</a></td>
-    <td>1</td>
-  </tr>
-         <tr>
-            <td>Segunda actividad</td>
-            <td><a href="https://github.com/crudzaso/join">Nombre de la actividad</a></td>
+    <div class="table-wrapper">
+      <table>
+        <thead>
+          <tr>
+            <th>#</th>
+            <th>Nombre</th>
+            <th>Portafolio</th>
+            <th>GitHub (perfil)</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
             <td>1</td>
-      </tr>
-
-        <tr>
-            <td>Sport</td>
-            <td><a href="https://github.com/AntonyMRuiz/sport">Sport</a></td>
-            <td>1</td>
-        </tr>
-</table>
+            <td>Veronica Martinez Cadavid</td>
+            <td><a href="https://veromarti.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/veromarti" target="_blank" rel="noopener noreferrer">github.com/veromarti</a></td>
+          </tr>
+          <tr>
+            <td>2</td>
+            <td>Samuel Monsalve Vanegas</td>
+            <td><a href="https://samuelmv725.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/samuelmv725" target="_blank" rel="noopener noreferrer">github.com/samuelmv725</a></td>
+          </tr>
+          <tr>
+            <td>3</td>
+            <td>Mateo Piedrahita Zapata</td>
+            <td><a href="https://teocles-12.github.io/Portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/teocles-12" target="_blank" rel="noopener noreferrer">github.com/teocles-12</a></td>
+          </tr>
+          <tr>
+            <td>4</td>
+            <td>Sebastian Vargas Ramirez</td>
+            <td><a href="https://zain-wave.github.io/Porfolio" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/zain-wave" target="_blank" rel="noopener noreferrer">github.com/zain-wave</a></td>
+          </tr>
+          <tr>
+            <td>5</td>
+            <td>Ulith Giraldo Echavarría</td>
+            <td><a href="https://ulithg18.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/ulithg18" target="_blank" rel="noopener noreferrer">github.com/ulithg18</a></td>
+          </tr>
+          <tr>
+            <td>6</td>
+            <td>Miguel Calle</td>
+            <td><a href="https://mk1-mid.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/mk1-mid" target="_blank" rel="noopener noreferrer">github.com/mk1-mid</a></td>
+          </tr>
+          <tr>
+            <td>7</td>
+            <td>Sebastian Vargas Ramirez</td>
+            <td><a href="https://zain-wave.github.io/porfolio" target="_blank" rel="noopener noreferrer">Ver portafolio (2)</a></td>
+            <td><a href="https://github.com/zain-wave" target="_blank" rel="noopener noreferrer">github.com/zain-wave</a></td>
+          </tr>
+          <tr>
+            <td>8</td>
+            <td>Valentina Gil Duque</td>
+            <td><a href="https://violelo09.github.io/Pagina/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/violelo09" target="_blank" rel="noopener noreferrer">github.com/violelo09</a></td>
+          </tr>
+          <tr>
+            <td>9</td>
+            <td>Diego Alejandro Morales Montoya</td>
+            <td><a href="https://choklitos21.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/choklitos21" target="_blank" rel="noopener noreferrer">github.com/choklitos21</a></td>
+          </tr>
+          <tr>
+            <td>10</td>
+            <td>Emanuel Carballo Echeverri</td>
+            <td><a href="https://emanuelxsx.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/emanuelxsx" target="_blank" rel="noopener noreferrer">github.com/emanuelxsx</a></td>
+          </tr>
+          <tr>
+            <td>11</td>
+            <td>Andrés Felipe Toro Graciano</td>
+            <td><a href="https://pipetogra95.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/pipetogra95" target="_blank" rel="noopener noreferrer">github.com/pipetogra95</a></td>
+          </tr>
+          <tr>
+            <td>12</td>
+            <td>Andrés Mauricio Hidrobo Escalona</td>
+            <td><a href="https://andreshidrobo.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/andreshidrobo" target="_blank" rel="noopener noreferrer">github.com/andreshidrobo</a></td>
+          </tr>
+          <tr>
+            <td>13</td>
+            <td>Daniela Quinto Rios</td>
+            <td><a href="https://dquintor.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/dquintor" target="_blank" rel="noopener noreferrer">github.com/dquintor</a></td>
+          </tr>
+          <tr>
+            <td>14</td>
+            <td>Sergio Alejandro Ospina Tabares</td>
+            <td><a href="https://saot31.github.io/Portafolio-1/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/saot31" target="_blank" rel="noopener noreferrer">github.com/saot31</a></td>
+          </tr>
+          <tr>
+            <td>15</td>
+            <td>wenjin yu</td>
+            <td><a href="https://tzerk-last.github.io/portafolio.html" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/TzerK-LAST" target="_blank" rel="noopener noreferrer">github.com/TzerK-LAST</a></td>
+          </tr>
+          <tr>
+            <td>16</td>
+            <td>Danna Michelle Oyola Apache</td>
+            <td><a href="https://michelle22062005.github.io/repositorio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/michelle22062005" target="_blank" rel="noopener noreferrer">github.com/michelle22062005</a></td>
+          </tr>
+          <tr>
+            <td>17</td>
+            <td>Héctor Hernán Ríos Rodríguez</td>
+            <td><a href="https://hecrodcode.github.io/Portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/hecrodcode" target="_blank" rel="noopener noreferrer">github.com/hecrodcode</a></td>
+          </tr>
+          <tr>
+            <td>18</td>
+            <td>Branner Andres Ramirez Zapata</td>
+            <td><a href="https://brannerxd.github.io/Portafolio-Branner/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/brannerxd" target="_blank" rel="noopener noreferrer">github.com/brannerxd</a></td>
+          </tr>
+          <tr>
+            <td>19</td>
+            <td>Camilo Florez Moreno</td>
+            <td><a href="https://amon089.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/amon089" target="_blank" rel="noopener noreferrer">github.com/amon089</a></td>
+          </tr>
+          <tr>
+            <td>20</td>
+            <td>Juan José Sánchez Ramírez</td>
+            <td><a href="https://saintdev00.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/saintdev00" target="_blank" rel="noopener noreferrer">github.com/saintdev00</a></td>
+          </tr>
+          <tr>
+            <td>21</td>
+            <td>Edwar Jamison Rios Tobon</td>
+            <td><a href="https://edwar198720arthas.github.io/Portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/edwar198720arthas" target="_blank" rel="noopener noreferrer">github.com/edwar198720arthas</a></td>
+          </tr>
+          <tr>
+            <td>22</td>
+            <td>JAINER PABÓN BORJA</td>
+            <td><a href="https://jajodisant.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/jajodisant" target="_blank" rel="noopener noreferrer">github.com/jajodisant</a></td>
+          </tr>
+          <tr>
+            <td>23</td>
+            <td>César Rios Guisao</td>
+            <td><a href="https://cesarrios25.github.io/Portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/cesarrios25" target="_blank" rel="noopener noreferrer">github.com/cesarrios25</a></td>
+          </tr>
+          <tr>
+            <td>24</td>
+            <td>Juan Eduardo Zorrilla Chavez</td>
+            <td><a href="https://github.com/HeroLeni/PythonMizushima" target="_blank" rel="noopener noreferrer">Repositorio PythonMizushima</a></td>
+            <td><a href="https://github.com/HeroLeni" target="_blank" rel="noopener noreferrer">github.com/HeroLeni</a></td>
+          </tr>
+          <tr>
+            <td>25</td>
+            <td>nicolle mariana mazo rubiano</td>
+            <td><a href="https://github.com/nicollemr07/PORTAFOLIO.git" target="_blank" rel="noopener noreferrer">Repo PORTAFOLIO</a></td>
+            <td><a href="https://github.com/nicollemr07" target="_blank" rel="noopener noreferrer">github.com/nicollemr07</a></td>
+          </tr>
+          <tr>
+            <td>26</td>
+            <td>Ximena Jaramillo Cardenas</td>
+            <td><a href="https://jaramc.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/jaramc" target="_blank" rel="noopener noreferrer">github.com/jaramc</a></td>
+          </tr>
+          <tr>
+            <td>27</td>
+            <td>Julian Aponte</td>
+            <td><a href="https://github.com/JulianAponte/portafolio" target="_blank" rel="noopener noreferrer">Repo portafolio</a></td>
+            <td><a href="https://github.com/JulianAponte" target="_blank" rel="noopener noreferrer">github.com/JulianAponte</a></td>
+          </tr>
+          <tr>
+            <td>28</td>
+            <td>Juan Eduardo Zorrilla Chavez</td>
+            <td><a href="https://github.com/HeroLeni/portafolio" target="_blank" rel="noopener noreferrer">Repo portafolio</a></td>
+            <td><a href="https://github.com/HeroLeni" target="_blank" rel="noopener noreferrer">github.com/HeroLeni</a></td>
+          </tr>
+          <tr>
+            <td>29</td>
+            <td>wenjin</td>
+            <td><a href="https://github.com/TzerK-LAST/portafolio" target="_blank" rel="noopener noreferrer">Repo portafolio</a></td>
+            <td><a href="https://github.com/TzerK-LAST" target="_blank" rel="noopener noreferrer">github.com/TzerK-LAST</a></td>
+          </tr>
+          <tr>
+            <td>30</td>
+            <td>Santiago Manuel Archila Guarnizo</td>
+            <td><a href="https://github.com/ArchilaG/portafolio" target="_blank" rel="noopener noreferrer">Repo portafolio</a></td>
+            <td><a href="https://github.com/ArchilaG" target="_blank" rel="noopener noreferrer">github.com/ArchilaG</a></td>
+          </tr>
+          <tr>
+            <td>31</td>
+            <td>Héctor Hernán Ríos Rodríguez</td>
+            <td><a href="https://hecrodcode.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio (2)</a></td>
+            <td><a href="https://github.com/hecrodcode" target="_blank" rel="noopener noreferrer">github.com/hecrodcode</a></td>
+          </tr>
+          <tr>
+            <td>32</td>
+            <td>Carlos Andres Monterrosa Gallego</td>
+            <td><a href="https://github.com/monterrosag18/portafolio" target="_blank" rel="noopener noreferrer">Repo portafolio</a></td>
+            <td><a href="https://github.com/monterrosag18" target="_blank" rel="noopener noreferrer">github.com/monterrosag18</a></td>
+          </tr>
+          <tr>
+            <td>33</td>
+            <td>sebastian montaño ramirez</td>
+            <td><a href="https://github.com/sebastianmontdev/portafolio" target="_blank" rel="noopener noreferrer">Repo portafolio</a></td>
+            <td><a href="https://github.com/sebastianmontdev" target="_blank" rel="noopener noreferrer">github.com/sebastianmontdev</a></td>
+          </tr>
+          <tr>
+            <td>34</td>
+            <td>César Rios Guisao</td>
+            <td><a href="https://cesarrios25.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio (2)</a></td>
+            <td><a href="https://github.com/cesarrios25" target="_blank" rel="noopener noreferrer">github.com/cesarrios25</a></td>
+          </tr>
+          <tr>
+            <td>35</td>
+            <td>nicolle mariana mazo rubiano</td>
+            <td><a href="https://github.com/nicollemr07/portafolio" target="_blank" rel="noopener noreferrer">Repo portafolio (2)</a></td>
+            <td><a href="https://github.com/nicollemr07" target="_blank" rel="noopener noreferrer">github.com/nicollemr07</a></td>
+          </tr>
+          <tr>
+            <td>36</td>
+            <td>JUAN CAMILO GUENGUE PEREZ</td>
+            <td><a href="https://github.com/CamiloGuengue/Portafolio.git" target="_blank" rel="noopener noreferrer">Repo Portafolio</a></td>
+            <td><a href="https://github.com/CamiloGuengue" target="_blank" rel="noopener noreferrer">github.com/CamiloGuengue</a></td>
+          </tr>
+          <tr>
+            <td>37</td>
+            <td>Duvan Estiven Mona Piedrahita</td>
+            <td><a href="https://estiven-piedrahita.github.io/portafolio/" target="_blank" rel="noopener noreferrer">Ver portafolio</a></td>
+            <td><a href="https://github.com/estiven-piedrahita" target="_blank" rel="noopener noreferrer">github.com/estiven-piedrahita</a></td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+  </div>
 </body>
 </html>
